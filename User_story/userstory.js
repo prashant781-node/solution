@@ -16,5 +16,4 @@ for (let i = 1; i <= lines_no; i = i + 4) {
   var segment = convertSegmentToInteger(line1, line2, line3);
   segment_array.push(segment);
 }
-
 fileWrite(segment_array);

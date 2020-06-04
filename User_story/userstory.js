@@ -1,7 +1,7 @@
 const convertSegmentToInteger = require("./convertSegmentToInteger");
 const fileWrite = require("./fileWrite.js");
-
 const fs = require("fs");
+
 const filePath = "./input_user_story_1.txt";
 const fileBuffer = fs.readFileSync(filePath);
 const to_string = fileBuffer.toString();
